@@ -1,9 +1,9 @@
-
 import React from "react";
 import Navbar from "../component/Navbar";
 import mainbanner from '../imgs/mainbanner.png';
 import Text from "../component/Text";
 import ButtonB from "../component/Button2";
+import Twobytwolayout from "../component/Twobytwolayout";
 
 function Main() {
   return (
@@ -18,13 +18,13 @@ function Main() {
             <ButtonB text={'Watch'}/>
           </div>
           <div>
-            <p>2*2 layout</p>
-            <p>text</p>
-            <p>button</p>
+            <Twobytwolayout/>
+            <Text title={"NEXT THIS WEEK"} subtitle={""}/>
+            <ButtonB text={"Shop New Arrivals"}/>
           </div>
-          <div>
+          {/* <div>
             <p>Shop by classic</p>
-          </div>
+          </div> */}
       </div>
     );
   }

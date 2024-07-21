@@ -1,0 +1,16 @@
+.layout-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    flex:1;
+}
+
+.column{
+    flex:1;
+    height:100%;
+    background-color: bisque;
+}
