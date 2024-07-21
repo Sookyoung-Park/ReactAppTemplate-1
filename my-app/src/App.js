@@ -2,17 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import MainPage from './screen/MainPage';
+import Main from './screen/Main';
+
+import ButtonA from './component/Button';
 
 function Home() {
   return (
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
       <Link to="/main">
-        <button>Go to MainPage</button>
+        <ButtonA text={"GO"}/>
       </Link>
     </header>
   );
@@ -24,7 +23,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/main" element={<MainPage />} />
+          <Route path="/main" element={<Main />} />
         </Routes>
       </div>
     </Router>

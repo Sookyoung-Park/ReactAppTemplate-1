@@ -1,11 +1,11 @@
-function Button(title){
+import '../styles/Button.css';
+
+function ButtonA({text}){
     return(
-        <div>
-            <Button variant="outlined">
-                title={"Sign In"}
-            </Button>
-        </div>
+        <div className="ButtonA">
+            <button className="styled-button">{text}</button> 
+        </div>  
     );
 }
 
-export default Button;
+export default ButtonA;
