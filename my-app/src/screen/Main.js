@@ -22,9 +22,8 @@ function Main() {
             <Text title={"NEXT THIS WEEK"} subtitle={""}/>
             <ButtonB text={"Shop New Arrivals"}/>
           </div>
-          {/* <div>
-            <p>Shop by classic</p>
-          </div> */}
+          <div style={{marginTop:'160px'}}>
+          </div>
       </div>
     );
   }
